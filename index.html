@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Landing Page With To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <button id="clearBtn" onClick="clear()" >Clear</button>
+    
+    <div id="modalContainer">
+        <div id="modal">
+            <h2 id="welcome">Welcome On Board!</h2>
+            <p id="welcomeMsg">Please enter your name to proceed</p>
+            <input type="text" id="nameInput" placeholder="Enter Your Name Here ...">
+            <button id="clear">Clear</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+    </div>
+
+    
+
+    <div id="container">
+
+
+
+        <!-- Time Container Here -->
+        <div id="clock">
+            <div id="days">
+                <p id="day"></p>
+            </div>
+            <div id="hours">
+                <p id="hour"></p>
+            </div>
+            <p class="semicolon">:</p>
+            <div id="minutes">
+                <p id="minute"></p>
+            </div>
+            <p class="semicolon">:</p>
+            <div id="seconds">
+                <p id="second"></p>
+            </div>
+            <div id="ampm">
+                <p id="am-pm"></p>
+            </div>
+    
+        </div>
+
+
+        <!-- Greeting Container -->
+        <div id="greeting">
+            <h1 id="greetings"></h1>
+            <h2 id="name"></h2>
+        </div>
+
+
+        <!-- To-Do-List Container -->
+        <div id="to-do">
+            <p id="agenda">To-DO-List</p>
+            <div id="listContainer">
+                <ol id="myList">
+                    <!-- <li>To Do List</li>
+                    <li>Dynamic Landing Page</li>
+                    <li>Data Structure</li> -->
+                    <!-- <li>To Do List</li>
+                    <li>Dynamic Landing Page</li>
+                    <li>Data Structure</li>
+                    <li>To Do List</li>
+                    <li>Dynamic Landing Page</li>
+                    <li>Data Structure</li>
+                    <li>To Do List</li>
+                    <li>To Do List</li>
+                    <li>Dynamic Landing Page</li>
+                    <li>Data Structure</li>
+                    <li>Dynamic Landing Page</li>
+                    <li>Data Structure</li> -->
+                </ol>
+            </div>
+            <button id="addBtn">Add Task</button>
+
+        </div>
+        <input type="text" id="input" placeholder="Enter Task ...">
+
+    </div>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
